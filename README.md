@@ -31,3 +31,12 @@ gunicorn --bind 0.0.0.0:8888 wsgi:app
 
 
 Any questions please contact: [anderson.lima@shawandpartners.com](mailto:anderson.lima@shawandpartners.com)
+
+## my solution to this problema
+After evaluating many approaches to solve this problem I decided to deploy the API on a Kubernetes cluster using, Docker, Artifact Registry, GKE , Google Cloud Platform and Github Actions CI/CD.
+
+the result can be checked by accessing the fallowing ip addresses
+http://34.27.93.29/
+http://34.27.93.29/healthcheck
+
+contact me for further explanation: [vagneralves997@gmail.com](mailto:vagneralves997@gmail.com)
