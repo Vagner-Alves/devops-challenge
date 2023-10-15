@@ -26,7 +26,7 @@ jobs:
     - name: configure docker client
       run: |-
         gcloud auth configure-docker --quiet
-        gcloud auth configure-docker northamerica-northeast1-docker.pkg.dev --quiet
+        gcloud auth configure-docker northamerica-northeast1-docker.pkg.dev
 
     - name: push docker image to container registry 
       env:
